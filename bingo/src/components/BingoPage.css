@@ -1,0 +1,33 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bingo_navbar{
+    display: flex;
+    width: -webkit-fill-available;
+    display: flex;
+    grid-template-columns: 60px 60px 60px 60px 60px;
+    gap: 15px;
+    background-color: #373d5f;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+    margin-bottom: 15px;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 2px 2px 2px 0px #2f3a58;
+}
+
+.navbar_content{
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #b9cefd;
+}
+
+.copy_content{
+    margin: auto;
+    padding-left: 5px;
+}

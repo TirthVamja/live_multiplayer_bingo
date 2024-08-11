@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
+import './App.css';
 import Home from './components/Home';
+import BingoPage from './components/BingoPage';
 import './App.css';
 import {
   BrowserRouter as Router,
@@ -25,6 +27,7 @@ class App extends Component{
         <Router>
           <Routes>
             <Route exact path="/" element={<Home generateTokenState={this.setState}/>} />
+            <Route path="/BingoPage" element={<BingoPage  click_enable = {this.state.click_enable} my_turn = {this.state.my_turn} token={this.state.token} navigator={this.state.navigator} handleApp = {this.setState}/>} />
           </Routes>
         </Router>
       </div>
