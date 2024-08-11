@@ -1,0 +1,13 @@
+.grid-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #8b8cc4;
+    border-radius: 10px;
+    font-size: 30px;
+    box-shadow: 2px 2px 2px 0px #777bab;
+    cursor: pointer;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}

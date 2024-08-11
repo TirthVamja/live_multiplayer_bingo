@@ -1,0 +1,7 @@
+.game_win{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#d3d3d4;
+}
